@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Heart } from 'lucide-react';
+
 
 interface RoseProps {
   onClick: () => void;
@@ -128,7 +128,7 @@ export default function Rose({ onClick }: RoseProps) {
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
       >
-          
+
       </motion.div>
     </motion.div>
   );
